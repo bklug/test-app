@@ -1,0 +1,12 @@
+# The deployment section should be excluded at this time
+# to be uncommented when ready for production
+
+#deployment:
+#  dockerhub:
+#    branch: master
+#    commands:
+#      - $DOCKER_HUB_TRIGGER
+
+test:
+  override:    
+    - mocha
